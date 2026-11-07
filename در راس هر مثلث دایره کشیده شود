@@ -10,7 +10,7 @@ t.goto(0, 100)
 t.pendown()
 
 t.color("blue")
-t.fillcolor("yellow")
+t.fillcolor("blue")
 t.begin_fill()
 t.goto(-100, -70)
 t.goto(100, -70)
@@ -18,9 +18,9 @@ t.goto(0, 100)
 t.end_fill()
 
 circles = [
-    (0, 100, "pink"),
-    (-100, -70, "lightgreen"),
-    (100, -70, "skyblue")
+    (0, 100, "red"),
+    (-100, -70, "purple"),
+    (100, -70, "green")
 ]
 
 for x, y, color in circles:
