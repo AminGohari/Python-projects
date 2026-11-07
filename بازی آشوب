@@ -23,9 +23,9 @@ t.goto(B)
 t.goto(R)
 
 vertices = [
-    (R, "red"),
-    (G, "green"),
-    (B, "blue")
+    (R, "blue"),
+    (G, "brown"),
+    (B, "yellow")
 ]
 
 n = int(input("Enter n: "))
